@@ -1,5 +1,3 @@
-<script setup lang="ts"></script>
-
 <template>
   <main class="">
     <div class="bg-slate-700 mt-20 page"></div>

@@ -4,18 +4,11 @@ import { ref } from "vue";
 export default {
   name: "VueTestPage",
   props: {},
-  methods: {
-    testMethod() {
-      const a = 1;
-      const b = 2;
-      const test: number = a + b;
-      return test;
-    },
-  },
+  methods: {},
   setup() {
     const numberA = ref(1);
     const numberB = ref(1);
-    const addition = function (a: number, b: number): number {
+    const addition = (a, b) => {
       return a + b;
     };
 

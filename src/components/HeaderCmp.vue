@@ -4,5 +4,3 @@
     <h1 class="text-white text-2xl">Header</h1>
   </header>
 </template>
-
-<script setup lang="ts"></script>
