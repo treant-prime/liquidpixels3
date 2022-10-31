@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as o}from"./index.0cfc6f2a.js";const s={name:"ThreeJsPage",props:{},created(){},mounted(){},methods:{},data(){}},a={ref:"canvas"};function r(c,n,_,d,p,f){return t(),o("div",a,null,512)}const i=e(s,[["render",r]]);export{i as default};
