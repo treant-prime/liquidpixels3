@@ -18,12 +18,10 @@ export default {
 };
 </script>
 
-<template>
-  <main class="">
-    <div class="bg-slate-200 mt-20 page p-20">
-      <h1>VueTestComponent: {{ result }}</h1>
-    </div>
-  </main>
+<template lang="pug">
+main
+  .bg-slate-200.mt-20.page.p-20
+    h1 VueTestComponent: {{ result }}
 </template>
 
 <style scoped></style>
